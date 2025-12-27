@@ -1,3 +1,69 @@
+## 2.3.0
+
+ - **REFACTOR**: switch to flutter_lints.
+ - **REFACTOR**: PickerElement -> FieldElement.
+ - **FIX**: Fix active sidebar item icon color (closes #190).
+ - **FIX**: checkbox appearance (#448).
+ - **FIX**: `ToolBar` title not avoiding traffic lights when no sidebar is present (#441).
+ - **FIX**: UX of the click on the calendar elements in `MacosDatePicker` (#417).
+ - **FIX**: use the `sidebar` and `endSidebar` key parameter (#400).
+ - **FIX**: add proper styling for selected date boxes (background and text colors) in both textual and graphical views.
+ - **FIX**: typo in month abbreviation (#370).
+ - **FIX**(docs): Remove "+" character from example (#363).
+ - **FIX**(SidebarItem): use theme's primary color instead of hardcoded value  (#374).
+ - **FIX**: fix bug where cursor would not change caret location on mouse click (#159).
+ - **FIX**: SearchField overlay actions are not performed (#357).
+ - **FIX**: Sidebar and ResizablePane more closely track native MacOS behavior (#178).
+ - **FIX**: ignore of shownByDefault on left sidebar (#532).
+ - **FIX**(example): incorrect variable usage.
+ - **FIX**(plugin): Ensure the native color panel releases when closed.
+ - **FIX**(tests): account for Jan -> Dec & Dec -> Jan.
+ - **FIX**: address ScrollController bug in MacosPopupButton (#300).
+ - **FIX**: use prepared title wrapped with a DefaultTextStyle instead of the raw title (#289).
+ - **FIX**: 1.7.1.
+ - **FIX**: Correct the placement of the leading widget in disclosure sidebar items (#272).
+ - **FIX**: set correct background/placeholder/icon colors for disabled fields.
+ - **FIX**: change border and box shadow styling, disabled background color and border radius for MacosTextField.
+ - **FIX**: right-align all dates in graphical view and add some padding to match macOS styling.
+ - **FIX**: add padding to selectors page in example.
+ - **FIX**: address #170 (#192).
+ - **FIX**: fix right & left month controls breaking when going past 1 or 12.
+ - **FIX**: fix light theme colors.
+ - **FIX**: use correct default font family.
+ - **FEAT**: add action to publish to pub.
+ - **FEAT**: add support for `routerConfig` to `MacosApp.router` (#390).
+ - **FEAT**: add action to publish to pub.
+ - **FEAT**: gh action to auto-generate releases on push to stable.
+ - **FEAT**: Added support for `dateFormat` to `MacosDatePicker` (#415).
+ - **FEAT**: starter_app 1.2.1.
+ - **FEAT**(starter_app): multi-window support.
+ - **FEAT**(starter_app): Version 1.1.0.
+ - **FEAT**: update `flutter_analysis` workflow (#356).
+ - **FEAT**: Added support for `startWeekOnMonday` to `MacosDatePicker` (#414).
+ - **FEAT**: implement `ControlSize` for `PushButton` (#447).
+ - **FEAT**: add radio buttons to example.
+ - **FEAT**: implement `MacosDisclosureButton` (#326).
+ - **FEAT**: Sliver toolbar (#368).
+ - **FEAT**: style options.
+ - **FEAT**: version `2.0.0` (#462).
+ - **FEAT**: Added support for `weekdayAbbreviations` and `monthAbbreviations` to `MacosDatePicker` (#416).
+ - **FEAT**: MacosDatePickerTheme & MacosDatePickerThemeData.
+ - **FEAT**: add `backgroundColor` to `MacosSheet` (#291).
+ - **FEAT**: working MacosDatePicker.
+ - **FEAT**: 0.8.1.
+ - **FEAT**: working field portion of MacosDatePicker.
+ - **FEAT**: optional mouse cursor for sidebar (closes #181).
+ - **FEAT**(package): 0.9.0 - native context menus! (#162).
+ - **FEAT**: added padding property to IconButton (#185).
+ - **FEAT**: caret painters.
+ - **DOCS**: docs for MacosDatePicker.
+ - **DOCS**: update readme.
+ - **DOCS**: update README.
+ - **DOCS**(ToolBar): update dartdocs.
+ - **DOCS**: add usage note regarding Flutter channel.
+ - **DOCS**: update `CONTRIBUTING.md` with more branch info.
+ - **DOCS**(MacosApp): fix constructor docs error.
+
 ## [2.2.2]
 ### 🛠 Fixed 🛠
 - Fixed setState called after dispose issue in MacosPulldownButton.
