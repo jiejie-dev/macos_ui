@@ -1,10 +1,11 @@
 name: example
+resolution: workspace
 description: Demonstrates how to use the macos_ui package
 publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.9.2 <4.0.0'
+  sdk: ^3.8.1
 
 dependencies:
   flutter:
@@ -14,7 +15,7 @@ dependencies:
   macos_ui:
     path: ..
   provider: ^6.1.5
-  google_fonts: ^6.3.2
+  google_fonts: ^4.0.4
   url_launcher: ^6.3.2
 
 dev_dependencies:
