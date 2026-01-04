@@ -1297,10 +1297,11 @@ class _MacosTextFieldState extends State<MacosTextField>
             break;
 
           case TargetPlatform.linux:
-          case TargetPlatform.ohos:
           case TargetPlatform.windows:
           case TargetPlatform.macOS:
             textSelectionControls ??= cupertinoDesktopTextSelectionControls;
+            break;
+          default:
             break;
         }
 

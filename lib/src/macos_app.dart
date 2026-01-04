@@ -484,7 +484,7 @@ class MacosScrollBehavior extends ScrollBehavior {
           case TargetPlatform.android:
           case TargetPlatform.fuchsia:
           case TargetPlatform.iOS:
-          case TargetPlatform.ohos:
+          default:
             return child;
         }
     }
