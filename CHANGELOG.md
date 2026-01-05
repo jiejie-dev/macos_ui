@@ -1,3 +1,7 @@
+## 2.3.1
+
+ - **FIX**: update platform handling in MacosScrollBehavior and _MacosTextFieldState.
+
 ## 2.3.0
 
  - **REFACTOR**: switch to flutter_lints.

@@ -1,7 +1,7 @@
 name: macos_ui
 resolution: workspace
 description: Flutter widgets and themes implementing the current macOS design language.
-version: 2.3.0
+version: 2.3.1
 homepage: "https://macosui.dev"
 repository: "https://github.com/GroovinChip/macos_ui"
 
